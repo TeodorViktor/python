@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.0 on win32)" generated="20231227 00:20:46.249" rpa="false" schemaversion="4">
+<suite id="s1" name="DesktopAppsTesting" source="C:\Users\teodo\Desktop\pythonProject\day-18-start\New folder\DesktopAppsTesting.robot">
+<test id="s1-t1" name="AutoItCheck" line="87">
+<kw name="Control Window" library="RPA.Windows">
+<arg>Sejda PDF Desktop</arg>
+<tag>window</tag>
+<doc>Controls the window defined by the locator.</doc>
+<msg timestamp="20231227 00:20:50.427" level="INFO">Getting element with locator: Sejda PDF Desktop and type:WindowControl</msg>
+<msg timestamp="20231227 00:20:50.428" level="INFO">Resulted root element: WindowsElement(item=&lt;uiautomation.uiautomation.PaneControl object at 0x000002492BB1A500&gt;, locator='Sejda PDF Desktop and type:WindowControl', name='Desktop 1', automation_id='', control_type='PaneControl', class_name='#32769', left=0, right=1920, top=0, bottom=1080, width=1920, height=1080, xcenter=960, ycenter=540)</msg>
+<msg timestamp="20231227 00:20:50.428" level="INFO">Locator 'Sejda PDF Desktop and type:WindowControl' produced matcher: MatchObject(locators=[('Name', 'Sejda PDF Desktop', 0), ('ControlType', 'WindowControl', 0)], _classes=set(), max_level=0)</msg>
+<msg timestamp="20231227 00:21:01.109" level="INFO">Getting element with locator: Sejda PDF Desktop and type:PaneControl</msg>
+<msg timestamp="20231227 00:21:01.110" level="INFO">Resulted root element: WindowsElement(item=&lt;uiautomation.uiautomation.PaneControl object at 0x000002492BB1A500&gt;, locator='Sejda PDF Desktop and type:PaneControl', name='Desktop 1', automation_id='', control_type='PaneControl', class_name='#32769', left=0, right=1920, top=0, bottom=1080, width=1920, height=1080, xcenter=960, ycenter=540)</msg>
+<msg timestamp="20231227 00:21:01.110" level="INFO">Locator 'Sejda PDF Desktop and type:PaneControl' produced matcher: MatchObject(locators=[('Name', 'Sejda PDF Desktop', 0), ('ControlType', 'PaneControl', 0)], _classes=set(), max_level=0)</msg>
+<msg timestamp="20231227 00:21:01.176" level="INFO">Returning element: WindowsElement(item=&lt;uiautomation.uiautomation.PaneControl object at 0x000002492BB1A890&gt;, locator='Sejda PDF Desktop and type:PaneControl', name='Sejda PDF Desktop', automation_id='', control_type='PaneControl', class_name='Chrome_WidgetWin_1', left=-9, right=1929, top=-9, bottom=1029, width=1938, height=1038, xcenter=960, ycenter=510)</msg>
+<msg timestamp="20231227 00:21:01.702" level="INFO">2023-12-27 00:21:01.106 locators.py[274] _get_control_from_params -&gt; Find Control Timeout(10s): {Name: 'Sejda PDF Desktop', ControlType: WindowControl}</msg>
+<status status="PASS" starttime="20231227 00:20:50.413" endtime="20231227 00:21:01.703"/>
+</kw>
+<kw name="Control Click" library="AutoItLibrary">
+<arg>strText=Choose PDF files</arg>
+<doc>method ControlClick</doc>
+<msg timestamp="20231227 00:21:01.704" level="FAIL">com_error: (-2147352561, 'Parameter not optional.', None, None)</msg>
+<msg timestamp="20231227 00:21:01.712" level="INFO">whitelib_screenshot_35.png</msg>
+<msg timestamp="20231227 00:21:01.712" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="whitelib_screenshot_35.png"&gt;&lt;img src="whitelib_screenshot_35.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="FAIL" starttime="20231227 00:21:01.703" endtime="20231227 00:21:01.708"/>
+</kw>
+<status status="FAIL" starttime="20231227 00:20:50.412" endtime="20231227 00:21:01.860">com_error: (-2147352561, 'Parameter not optional.', None, None)</status>
+</test>
+<status status="FAIL" starttime="20231227 00:20:46.251" endtime="20231227 00:21:01.861"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="DesktopAppsTesting">DesktopAppsTesting</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
