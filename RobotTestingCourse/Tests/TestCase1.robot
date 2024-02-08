@@ -7,3 +7,4 @@ Library     OperatingSystem
 *** Test Cases ***
 Test
     Log    This is a test message
+    
